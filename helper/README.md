@@ -6,7 +6,7 @@
 ##### Functions:
 
 * AddLogFile
-  * ###### Set "log" output to console and file
+> Set "log" output to console and file
 
 * HandleErrorFatal
 * HandleError
