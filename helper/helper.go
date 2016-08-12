@@ -55,7 +55,7 @@ func OpenDatabaseMysqlGorm(username, password, dbName string) *gorm.DB {
 	return db
 }
 
-// Open MySql database connection using guild in sql library
+// Open MySql database connection using build in sql library
 // Using build in error handling: Exit on error.
 func OpenDatabaseMysql(username, password, dbName string) *sql.DB {
 	db, err := sql.Open("mysql", username + ":" + password + "@/" + dbName + "?charset=utf8&parseTime=True&loc=Local")
