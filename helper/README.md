@@ -3,4 +3,11 @@
 ###### Require import ("github.com/jinzhu/gorm")
 
 
-##### Functions
+##### Functions:
+
+* AddLogFile
+* HandleErrorFatal
+* HandleError
+* OpenDatabaseMysqlGorm
+* OpenDatabaseMysql
+* StringToTimeDDMMYYYY
