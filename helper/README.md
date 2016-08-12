@@ -6,6 +6,8 @@
 ##### Functions:
 
 * AddLogFile
+###### Set "log" output to console and file
+
 * HandleErrorFatal
 * HandleError
 * OpenDatabaseMysqlGorm
