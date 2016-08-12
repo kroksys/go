@@ -5,7 +5,7 @@
 
 ##### Functions:
 
-* AddLogFile
+AddLogFile(fileName string) error
 > Set "log" output to console and file
 
 * HandleErrorFatal
