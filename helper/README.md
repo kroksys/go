@@ -5,6 +5,8 @@ Go useful functions. This library uses github.com/jinzhu/gorm library
 ## Install:
 ```
 go get github.com/kroksys/go/helper
+go get github.com/jinzhu/gorm
+go get github.com/go-sql-driver
 
 import (
     "github.com/kroksys/go/helper"
