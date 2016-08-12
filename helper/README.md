@@ -3,7 +3,7 @@
 ###### Require import ("github.com/jinzhu/gorm")
 
 
-##### Functions:
+#### Functions:
 
 AddLogFile(fileName string) error
 > Set "log" output to console and file
