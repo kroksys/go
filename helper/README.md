@@ -1,8 +1,15 @@
 ## Go helper
 
-###### Require import ("github.com/jinzhu/gorm")
+Go useful functions. This library uses github.com/jinzhu/gorm library
 
+## Install:
+```
+go get github.com/kroksys/go/helper
 
+import (
+    "github.com/kroksys/go/helper"
+)
+```
 
 ## Functions:
 
