@@ -35,4 +35,4 @@ StringToTimeDDMMYYYY(str string) (time.Time, error)
 > Convert sting formatted as DD-MM-YYYY to time
 
 ToString(object interface{}) string
-> 
+> Convert objects to string using json.Marshal
