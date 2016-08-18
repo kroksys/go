@@ -9,6 +9,7 @@ import (
 	"strings"
 	"time"
 	"errors"
+	"encoding/json"
 )
 
 // SetOutput sets the output destination for the logger to Stdout and "File".
