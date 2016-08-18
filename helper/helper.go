@@ -72,3 +72,13 @@ func StringToTimeDDMMYYYY(str string) (time.Time, error) {
 	}
 	return time.Parse("01-02-2006", i[1] + "-" + i[0] + "-" + i[2])
 }
+
+// Convert objects to string using json.Marshal
+func ToString(object interface{}) string {
+	s, e := json.Marshal(object)
+	if e != nil {
+		return ""
+	}
+	return string(s)
+}
+
